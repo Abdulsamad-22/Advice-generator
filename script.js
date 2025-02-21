@@ -1,5 +1,3 @@
-console.log('hello');
-
 /*
 const xhr = new XMLHttpRequest();
 
@@ -28,13 +26,7 @@ function fetchAdvice() {
 
         adviceId.textContent = `ADVICE #${id}`;
         adviceText.textContent = `"${advice}"`;
-
-        console.log(advice);
-        console.log(id);
     });
-    
-    
-    console.log('response');
 }
 
 button.addEventListener('click', fetchAdvice);
